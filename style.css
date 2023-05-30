@@ -214,20 +214,22 @@ header {
 /* 3rd section/ where to find us*/
 
 #where-to-find-us {
+    text-align: center;
 }
 
 #where-to-find-us > h2 {
   font-family: raleway, sans-serif;
   color: #949494;
   position: relative;
-  left: 20%;
+  left: git%;
 }
 
 #map {
   width: 50%;
   border-radius: 6%;
+  text-align: center;
 }
-/* FGITooter */
+/* Footer */
 footer {
   background-color: #bebebe;
   color: white;
