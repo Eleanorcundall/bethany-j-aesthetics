@@ -1,0 +1,63 @@
+/* Main body CSS*/
+
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Raleway:wght@100;400&display=swap");
+
+html, body {
+width: 100%;
+height: 100%;
+margin: 0px;
+padding: 0px;
+overflow-x: hidden;
+}
+
+body {
+  background: linear-gradient(
+    178deg,
+    rgba(201, 234, 252, 0.51) 14.9%,
+    rgba(139, 192, 216, 0.73) 80%
+  );
+}
+
+/* Main header/ Nav section */
+
+.active {
+  border-bottom: 1px solid #add8e6;
+}
+
+h1 {
+  font-family: Cormorant Garamond, sans-serif;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: white;
+  float: left;
+  font-weight: 100;
+  font-size: 50px;
+  margin: 30px 0 0 20px;
+}
+
+header {
+  background-color: #bebebe;
+  margin: -20px 0 0 -10px;
+  width: 100%;
+  height: 120px;
+}
+
+#navlinks li {
+  font-family: raleway, sans-serif;
+  color: white;
+  float: right;
+  list-style-type: none;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+#navlinks a {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+}
+
+#navlinks a:hover {
+  color: #add8e6;
+  text-decoration: none;
+}
