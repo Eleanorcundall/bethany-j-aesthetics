@@ -61,3 +61,52 @@ header {
   color: #add8e6;
   text-decoration: none;
 }
+
+/* First section */
+
+#firstsectionbg {
+  height: 500px;
+  width: 100%;
+  background-image: url("/images/mainbgimg.jpg");
+  background-repeat: no-repeat;
+  background-size: 1600px;
+  position: relative;
+  margin: -100px 15px 40px -10px;
+}
+
+#slogan {
+  font-family: raleway, sans-serif;
+  font-size: 30px;
+  text-transform: capitalize;
+  width: 40%;
+  text-align: center;
+  color: white;
+  background-color: #bebebe;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  margin-left: 30px;
+  margin-top: 100px;
+  opacity: 0.7;
+  border-radius: 5%;
+  padding-bottom: 100px;
+  position: relative;
+  top: 100px;
+}
+
+#slogan2 {
+  margin-top: 10%;
+  text-align: center;
+}
+
+#consultation-button {
+  font-family: raleway, sans-serif;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color: #949494;
+  background-color: white;
+}
+
+#consultation-button:hover {
+  color: #add8e6;
+}
