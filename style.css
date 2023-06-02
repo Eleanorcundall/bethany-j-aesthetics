@@ -318,3 +318,37 @@ footer {
 #photos>img {
     width: 100%;
 }
+ 
+/* Contact us Page */
+
+#form {
+    background-color: #bebebe;
+    opacity: 0.5;
+    width: 50%;
+    height: 500px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 6%;
+}
+
+form {
+    margin-top: 20px;
+}
+   input[type=text], input[type=email], label {
+  width: 75%;
+  padding: 12px 20px;
+  margin-left: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+ #enquiry {
+    width: 90%;
+    height: 150px;
+ }
+
+
+
+#form > input {
+    margin: 20px;
+}
