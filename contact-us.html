@@ -1,62 +1,104 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Contact us</title>
-</head>
-<body>
-     <header>
-        <h1>Bethany J Aesthetics</h1>
-        <nav>
-            <ul id="navlinks">
-            <li><a href="contact-us.html"class="active">Contact us</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="about-us.html">About us</a> </li>
-            <li><a href="index.html" >Home</a></li>
-
+  </head>
+  <body>
+    <header>
+      <h1>Bethany J Aesthetics</h1>
+      <nav>
+        <ul id="navlinks">
+          <li><a href="contact-us.html" class="active">Contact us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about-us.html">About us</a></li>
+          <li><a href="index.html">Home</a></li>
         </ul>
-        </nav>
+      </nav>
     </header>
     <section>
-        <div id="form">
-        <form>
-            <label for="firstname">First name</label>
-            <input type="text" name="firstname" id="firstname" value="Your name..." required>
-            <label for="lastname">Last name</label>
-            <input type="text" name="lastname" id="lastname" value="Your last name..."required>
-            <label for="email">Email address</label>
-            <input type="email" name="email" id="email" value="Your email..." required>
-            <label for="enquiry">Your enquiry</label>
-            <input type="text" name="enquiry" id="enquiry" value="Tell us your goals..." required>
-            <input type="submit" value="Submit">
-        </form> 
-    </div>
+      <div id="form">
+        <form action="Server URL" method="post">
+          <label for="firstname">First name</label>
+          <input
+            type="text"
+            name="firstname"
+            id="firstname"
+            placeholder="Your name..."
+            required
+          />
+          <label for="lastname">Last name</label>
+          <input
+            type="text"
+            name="lastname"
+            id="lastname"
+            placeholder="Your last name..."
+            required
+          />
+          <label for="email">Email address</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email..."
+            required
+          />
+          <label for="enquiry">Your enquiry</label>
+          <input
+            type="text"
+            name="enquiry"
+            id="enquiry"
+            placeholder="Tell us your goals..."
+            required
+          />
+          <input type="submit" value="Send my enquiry" />
+        </form>
+      </div>
     </section>
-       
+    <div id="contact-details">
+      <div id="contact-icons">
+        <i class="fa-solid fa-phone"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-sharp fa-solid fa-location-dot"></i>
+      </div>
+    </div>
 
-    
-    
-         <footer>
-        <ul class="socials">
-            <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-            </li>
-            <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-            </li>
-        </ul>
-        <p id="footerlogo">
-            BETHANY J AESTHETICS
-        </p>
-</footer>
-    <script src="https://kit.fontawesome.com/8cbe2e9ce0.js" crossorigin="anonymous"></script>
-</body>
-
+    <footer>
+      <ul class="socials">
+        <li>
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+      <p id="footerlogo">BETHANY J AESTHETICS</p>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/8cbe2e9ce0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
