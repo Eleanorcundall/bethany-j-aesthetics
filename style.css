@@ -315,7 +315,7 @@ footer {
 
 #form {
   background-color: #bebebe;
-  opacity: 0.5;
+  opacity: 0.7;
   width: 48%;
   height: 500px;
   margin: 10px 20px 10px 20px;
@@ -365,7 +365,7 @@ input[type=submit]:hover {
 }
 #contact-details {
   background-color: #bebebe;
-  opacity: 0.5;
+  opacity: 0.7;
   width: 48%;
   height: 500px;
   margin: -510px 20px 10px 20px;
@@ -375,6 +375,18 @@ input[type=submit]:hover {
 }
 
 #contact-icons {
-    
+    font-size: 25px;
+    color: white;
+    list-style: none;
 }
 
+#contact-icons > li {
+    margin: 50px;
+    text-align: center;
+}
+
+i {
+    padding: 20px;
+    
+    
+}
