@@ -1,6 +1,6 @@
 /* Main body CSS*/
 
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Raleway:ital,wght@0,100;0,400;1,100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Great+Vibes&family=Raleway:ital,wght@0,100;0,400;1,100&display=swap');
 
 html,
 body {
@@ -369,7 +369,7 @@ input[type="submit"]:hover {
   margin: -510px 20px 10px 20px;
   border-radius: 6%;
   float: right;
-  vertical-align: ;
+  
 }
 
 #contact-icons {
@@ -393,20 +393,29 @@ i {
     background-color: #bebebe;
     color: white;
     font-family: raleway, sans-serif;
-    width: 100%;
-    height: 100%;
+    margin: 20px;
+    padding:15px;
+    height: 700px;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 6%;
+    float: left;
+    line-height: 30px;
+    word-spacing: 3px;
 }
 
-#about-us-area>p {
-    text-align: left;
-}
 
 #about-us-area>img {
-    height: 400px;
-    width: 400px;
-    float: right;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    float: left;
     border-radius: 6%;
     position: relative;
+
+}
+
+#signature {
+    color: white;
+    font-family: great vibes, sans-serif;
+    font-size: 50px;
 }
