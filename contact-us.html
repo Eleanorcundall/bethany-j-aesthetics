@@ -3,28 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
+    
     <title>Contact us</title>
   </head>
   <body>
-    <header>
-      <h1>Bethany J Aesthetics</h1>
-      <nav>
-        <ul id="navlinks">
-          <li><a href="contact-us.html" class="active">Contact us</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="about-us.html">About us</a></li>
-          <li><a href="index.html">Home</a></li>
+    <body>
+     <header>
+        <h1>Bethany J Aesthetics</h1>
+        <nav>
+            <ul class="navlinks">
+            <li><a href="contact-us.html"class="active">Contact us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about-us.html">About us</a> </li>
+            <li><a href="index.html" >Home</a></li>
+
         </ul>
-      </nav>
+        </nav>
     </header>
     <section>
-      <div id="form">
+      <div class="form">
         <form action="Server URL" method="post">
           <label for="firstname">First name</label>
           <input
             type="text"
             name="firstname"
-            id="firstname"
+            class="firstname"
             placeholder="Your name..."
             required
           />
@@ -32,7 +35,7 @@
           <input
             type="text"
             name="lastname"
-            id="lastname"
+            class="lastname"
             placeholder="Your last name..."
             required
           />
@@ -40,7 +43,7 @@
           <input
             type="email"
             name="email"
-            id="email"
+            class="email"
             placeholder="Your email..."
             required
           />
@@ -48,7 +51,7 @@
           <input
             type="text"
             name="enquiry"
-            id="enquiry"
+            class="enquiry"
             placeholder="Tell us your goals..."
             required
           />
@@ -56,8 +59,8 @@
         </form>
       </div>
     </section>
-    <div id="contact-details">
-      <ul id="contact-icons">
+    <div class="contact-details">
+      <ul class="contact-icons">
         <li><i class="fa-solid fa-phone"></i>+447471478298</li>
         <li><i class="fa-solid fa-envelope"></i>BehanyJAesthetics@Hotmail.com</li>
         <li><i class="fa-sharp fa-solid fa-location-dot"></i>55 Aestetic street Cleckheaton,<br>BD19 4DH</li>
