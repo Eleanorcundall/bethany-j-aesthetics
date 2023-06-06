@@ -418,10 +418,23 @@ i {
 
 @media only screen and (max-width: 600px) {
   header {
-    height: 20%;
+    height: 20git %;
+  }
+  h1 {
+    font-size: 200%;
   }
   .navlinks {
-    float: left;
+    font-size: 80%;
+    padding-bottom: 0px;
+  
+    
+
+  }
+
+  .navlinks > li {
+    margin-top: 5%;
+    float: right;
+    
   }
   .firstsectionbg {
     background-image: url("./images/smallerbg.jpg");
