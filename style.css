@@ -68,7 +68,7 @@ header {
 .firstsectionbg {
   height: 500px;
   width: 100%;
-  background-image: url("/images/mainbgimg.jpg");
+  background-image: url("./images/mainbgimg.jpg");
   background-repeat: no-repeat;
   background-size: 1600px;
   position: relative;
@@ -123,7 +123,7 @@ header {
 }
 
 .dermal-fillers {
-  background-image: url("/images/lip-filler.jpg");
+  background-image: url("./images/lip-filler.jpg");
   height: 300px;
   width: 32%;
   float: left;
@@ -155,7 +155,7 @@ header {
 }
 
 .chemical-peels {
-  background-image: url("/images/chemicalpeel.jpg");
+  background-image: url("./images/chemicalpeel.jpg");
   height: 300px;
   width: 32%;
   float: left;
@@ -183,7 +183,7 @@ header {
 }
 
 .botox {
-  background-image: url("/images/botox.jpg");
+  background-image: url("./images/botox.jpg");
   height: 300px;
   width: 32%;
   float: left;
@@ -417,39 +417,39 @@ i {
 /*Responsive design/ Media Querys*/
 
 @media only screen and (max-width: 600px) {
- header {
+  header {
     height: 20%;
- }
- .navlinks {
+  }
+  .navlinks {
     float: left;
- }
-    .firstsectionbg {
-        background-image: url('./images/smallerbg.jpg');
-        background-size:cover;
-    }
-.slogan {
+  }
+  .firstsectionbg {
+    background-image: url("./images/smallerbg.jpg");
+    background-size: cover;
+  }
+  .slogan {
     width: 90%;
-}
-.dermal-fillers, .chemical-peels, .botox {
+  }
+  .dermal-fillers,
+  .chemical-peels,
+  .botox {
     width: 100%;
     margin: 5px;
-}
+  }
 
-.map {
+  .map {
     width: 100%;
-}
- .reviews {
+  }
+  .reviews {
     width: 100%;
     margin-bottom: 20px;
     font-size: 120%;
-    
- }
-.where-to-find-us {
+  }
+  .where-to-find-us {
     text-align: center;
     margin-top: 40px;
-}
- .section3 > img {
+  }
+  .section3 > img {
     margin: 0px;
- }
-
+  }
 }
