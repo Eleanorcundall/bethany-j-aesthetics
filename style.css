@@ -36,6 +36,11 @@ h1 {
   margin: 30px 0 0 20px;
 }
 
+h1 a {
+  text-decoration: none;
+  color: white;
+}
+
 header {
   background-color: #bebebe;
   margin: -20px 0 0 -10px;
@@ -391,12 +396,14 @@ i {
   font-family: raleway, sans-serif;
   margin: 20px;
   padding: 15px;
-  height: 700px;
+  min-height: 700px;
   text-align: center;
-  border-radius: 6%;
+  border-radius: 6px;
   float: left;
   line-height: 30px;
   word-spacing: 3px;
+  font-size: 120%;
+
 }
 
 .about-us-area > img {
@@ -416,29 +423,114 @@ i {
 
 /*Responsive design/ Media Querys*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 575px) {
   header {
-    height: 20%;
+    height: 180px;
+    position: relative;
   }
   h1 {
     font-size: 200%;
+    margin: 20px 0 0 20px;
   }
-  .navlinks {
-    font-size: 80%;
-    padding-bottom: 0px;
-  
-    
+  nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300mm;
+    margin-bottom: 10px;
+    font-size: 100%;
 
   }
-
-  .navlinks > li {
+ 
+  .navlinks > ul {
     margin-top: 5%;
-    float: right;
+    text-align: right;
+    display: inline-block;
     
   }
   .firstsectionbg {
     background-image: url("./images/smallerbg.jpg");
     background-size: cover;
+    
+  }
+  .slogan {
+    width: 90%;
+  }
+  .dermal-fillers,
+  .chemical-peels,
+  .botox {
+    width: 100%;
+    margin: 5px;
+  }
+
+  .map {
+    width: 100%;
+  }
+  .reviews {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 110%;
+  }
+  .where-to-find-us {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .section3 > img {
+    margin: 0px;
+  }
+  footer> ul{
+    text-align: center;
+    padding-left: 0px;
+  }
+.form, .contact-details {
+  width: 93%;
+  margin: 10px;
+  padding: 0%;
+  float: none;
+}
+input[type="submit"] {
+  margin: 10px 10px 10px 100px;
+}
+.contact-icons {
+  padding: 0 50px 0 0;
+  font-size: 125%;
+
+  
+}
+
+.photos {
+  column-count: 1;
+}
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 575px) {
+  header {
+    height: 200px;
+    position: relative;
+  }
+  h1 {
+    font-size: 300%;
+    margin: 20px 0 0 20px;
+  }
+  nav {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300mm;
+    margin-bottom: 20px;
+    font-size: 135%;
+
+  }
+ 
+
+  .navlinks > ul {
+    margin-top: 5%;
+    
+  }
+  .firstsectionbg {
+    background-image: url("./images/smallerbg.jpg");
+    background-size: cover;
+    
   }
   .slogan {
     width: 90%;
@@ -460,9 +552,30 @@ i {
   }
   .where-to-find-us {
     text-align: center;
-    margin-top: 40px;
+    margin-left: 0px;
   }
   .section3 > img {
     margin: 0px;
   }
+  .photos {
+    column-count: 2;
+  }
+  footer> ul{
+    text-align: center;
+    padding-left: 0px;
+  }
+  .form, .contact-details {
+  width: 93%;
+  margin: 10px;
+  padding: 0%;
+  float: none;
+}
+input[type="submit"] {
+  margin: 10px 10px 10px 100px;
+}
+.contact-icons {
+  padding: 0 50px 0 0;
+
+}
+
 }
