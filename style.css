@@ -114,6 +114,7 @@ header {
 
 .consultation-button:hover {
   color: #add8e6;
+  cursor: pointer;
 }
 
 /* Second section */
@@ -546,7 +547,7 @@ input[type="submit"] {
   .reviews {
     width: 100%;
     margin-bottom: 20px;
-    font-size: 120%;
+    font-size: 140%;
   }
   .where-to-find-us {
     text-align: center;
