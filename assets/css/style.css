@@ -48,7 +48,7 @@ header {
   height: 120px;
 }
 
-.navlinks li {
+.nav-links li {
   font-family: raleway, sans-serif;
   color: white;
   float: right;
@@ -57,25 +57,25 @@ header {
   margin-top: 30px;
 }
 
-.navlinks a {
+.nav-links a {
   text-decoration: none;
   color: white;
   font-weight: 100;
 }
 
-.navlinks a:hover {
+.nav-links a:hover {
   color: #add8e6;
   text-decoration: none;
 }
 
 /* First section */
 
-.firstsectionbg {
+.first-section-bg {
   height: 500px;
   width: 100%;
-  background-image: url("./images/mainbgimg.jpg");
+  background-image: url("../images/mainbgimg.jpg");
   background-repeat: no-repeat;
-  background-size: 1600px;
+  background-size: 100%;
   position: relative;
   margin: -100px 15px 40px 0px;
 }
@@ -119,7 +119,7 @@ header {
 
 /* Second section */
 
-.secondsection {
+.second-section {
   width: 100%;
   height: 300px;
   margin-top: 10px;
@@ -129,7 +129,7 @@ header {
 }
 
 .dermal-fillers {
-  background-image: url("./images/lip-filler.jpg");
+  background-image: url("../images/lip-filler.jpg");
   height: 300px;
   width: 32%;
   float: left;
@@ -161,7 +161,7 @@ header {
 }
 
 .chemical-peels {
-  background-image: url("./images/chemicalpeel.jpg");
+  background-image: url("../images/chemical-peel.jpg");
   height: 300px;
   width: 32%;
   float: left;
@@ -189,7 +189,7 @@ header {
 }
 
 .botox {
-  background-image: url("./images/botox.jpg");
+  background-image: url("../images/botox.jpg");
   height: 300px;
   width: 32%;
   float: left;
@@ -217,12 +217,12 @@ header {
 
 /* 3rd section/ where to find us/Reviews*/
 
-.section3 {
+.section-3 {
   text-align: center;
   position: static;
 }
 
-.section3 > img {
+.section-3 > img {
   width: 300px;
   height: 150px;
   margin-top: -150px;
@@ -402,7 +402,6 @@ i {
   line-height: 30px;
   word-spacing: 3px;
   font-size: 120%;
-
 }
 
 .about-us-area > img {
@@ -438,19 +437,16 @@ i {
     width: 300mm;
     margin-bottom: 10px;
     font-size: 100%;
-
   }
- 
-  .navlinks > ul {
+
+  .nav-links > ul {
     margin-top: 5%;
     text-align: right;
     display: inline-block;
-    
   }
-  .firstsectionbg {
-    background-image: url("./images/smallerbg.jpg");
+  .first-section-bg {
+    background-image: url("../images/smaller-screen-bg.jpg");
     background-size: cover;
-    
   }
   .slogan {
     width: 90%;
@@ -477,38 +473,36 @@ i {
   .section3 > img {
     margin: 0px;
   }
-  footer> ul{
+  footer > ul {
     text-align: center;
     padding-left: 0px;
   }
-.form, .contact-details {
-  width: 93%;
-  margin: 10px;
-  padding: 0%;
-  float: none;
-}
-input[type="submit"] {
-  margin: 10px 10px 10px 100px;
-}
-.contact-icons {
-  padding: 0 50px 0 0;
-  font-size: 125%;
+  .form,
+  .contact-details {
+    width: 93%;
+    margin: 10px;
+    padding: 0%;
+    float: none;
+  }
+  input[type="submit"] {
+    margin: 10px 10px 10px 100px;
+  }
+  .contact-icons {
+    padding: 0 50px 0 0;
+    font-size: 125%;
+  }
 
-  
-}
+  .photos {
+    column-count: 1;
+  }
 
-.photos {
-  column-count: 1;
+  .about-us-area {
+    width: 93%;
+    margin: 10px;
+    padding: 0%;
+    float: none;
+  }
 }
-
-.about-us-area {
-  width: 93%;
-  margin: 10px;
-  padding: 0%;
-  float: none;
-}
-}
-
 
 @media only screen and (max-width: 1200px) and (min-width: 575px) {
   header {
@@ -526,18 +520,14 @@ input[type="submit"] {
     width: 300mm;
     margin-bottom: 20px;
     font-size: 135%;
-
   }
- 
 
-  .navlinks > ul {
+  .nav-links > ul {
     margin-top: 5%;
-    
   }
-  .firstsectionbg {
-    background-image: url("./images/smallerbg.jpg");
+  .first-section-bg {
+    background-image: url("../images/smaller-screen-bg.jpg");
     background-size: cover;
-    
   }
   .slogan {
     width: 90%;
@@ -567,22 +557,32 @@ input[type="submit"] {
   .photos {
     column-count: 2;
   }
-  footer> ul{
+  footer > ul {
     text-align: center;
     padding-left: 0px;
   }
-  .form, .contact-details {
-  width: 93%;
-  margin: 10px;
-  padding: 0%;
-  float: none;
+  .form,
+  .contact-details {
+    width: 93%;
+    margin: 10px;
+    padding: 0%;
+    float: none;
+  }
+  input[type="submit"] {
+    margin: 10px 10px 10px 100px;
+  }
+  .contact-icons {
+    padding: 0 50px 0 0;
+  }
 }
-input[type="submit"] {
-  margin: 10px 10px 10px 100px;
-}
-.contact-icons {
-  padding: 0 50px 0 0;
 
-}
+@media screen and (max-width: 450px) {
+  .contact-icons {
+    padding: 0 50px 0 0;
+    font-size: 100%;
+  }
 
+  .nav-links {
+    font-size: 14px;
+  }
 }
