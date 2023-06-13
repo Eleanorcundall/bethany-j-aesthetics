@@ -73,7 +73,7 @@ header {
 .first-section-bg {
   height: 500px;
   width: 100%;
-  background-image: url("../images/mainbgimg.jpg");
+  background-image: url("../images/main-background-img.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
@@ -462,6 +462,7 @@ i {
     width: 100%;
   }
   .reviews {
+    min-height: max-content;
     width: 100%;
     margin-bottom: 20px;
     font-size: 110%;
@@ -470,7 +471,7 @@ i {
     text-align: center;
     margin-left: 0px;
   }
-  .section3 > img {
+  .section-3 > img {
     margin: 0px;
   }
   footer > ul {
@@ -551,7 +552,7 @@ i {
     text-align: center;
     margin-left: 0px;
   }
-  .section3 > img {
+  .section-3 > img {
     margin: 0px;
   }
   .photos {
@@ -584,5 +585,9 @@ i {
 
   .nav-links {
     font-size: 14px;
+  }
+
+  .reviews {
+    font-size: 90%;
   }
 }
