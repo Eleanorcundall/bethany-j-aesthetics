@@ -56,7 +56,39 @@ The Website is to target both regular and brand new clients of Bethany J Aesthet
 ![Screenshot showing Gallery page with mixed images of real clients results](./assets/images/bja-gallery.png)  
 
 - ### Contact us page
-   - This page includes 2 main divs, the first being a form div allowing potential and interested clients to send through an detailed enquiry (with a large text box to allow clients to write a detailed enquiry including past cosmetic procedures and what theyre trying to achive )
+   - This page includes 2 main divs, the first being a form div allowing potential and interested clients to send through an detailed enquiry (with a large text box to allow clients to write a detailed enquiry including any past cosmetic procedures and what they're trying to achive).
+    - The right div contains the company phone number, email address and location with matching font awesome icons to make it clear to the user what the information means. 
+
+   ![Screenshot of Contact us page with two grey divs, one including a form page to send your enquiry and the second containing the company Phone number, email and location.](./assets/images/bja-contact-us.png)
+
+- ### Future features
+  - On the Contact us page i would like to feature a live booking system with a calender and all of the available times/ dates for a free consultation, making it even easier for users to book an instant appointment.
+
+## Testing 
+
+- To test my website, i performed the following steps: 
+
+  - Manually checking all the features of the website to ensure they work as intended. This includes testing all links, forms, images and all other interactive elements on the website.
+  - Testing the website on different web browsers such as Chrome, Firefox, Safari, and Edge to ensure that the website works well on all of them.
+  - Testing the website on different mobile devices such as smartphones and tablets to ensure that it is responsive and adjusts well to different screen sizes.
+  - Testing the website to ensure that it is accessible to people with disabilities. This includes testing the website with screen readers, keyboard-only navigation, and other accessibility tools.
+  
+  ![Logo showing 97% on accessibility rating](./assets/images/accessibility-rating.PNG)
+
+  
+   By performing these tests, I can ensure that a website works well and provides a good user experience to its visitors.
+
+- ### Validator Testing
+  - HTML 
+    Passed the official W3C validator with no errors. 
+  - CSS
+   Passed through the official (Jigsaw) validator with no errors.
+
+   
+
+
+
+
 
 
 
