@@ -30,9 +30,35 @@ The Website is to target both regular and brand new clients of Bethany J Aesthet
 
   ![Home page section 2 shows 3 side by side photos of woman getting lip filler, a woman getting a chemical peel and a woman after recieving botox with the treatments names overlayed on top of each photo](./assets/images/bja-section-2.PNG)
 
-### Map and Review Section- Section 3 
-- Section 3 includes 2 side by side divs, the 1st displaying an interactive map with a "where to find us" heading, and a reviews div with the "Google 5 star review logo" at the top and 3 individul reviews from google inside a grey box.
-- The interactive map is an excellent way to instantly make users aware of the area/location the salon is located in. 
-- The reviews section is an extremely good way to instsantly build confidence and the "Google 5 star review logo" will reasure potential clients that might be visiting the site for the first time. 
+- ### Map and Review Section- Section 3 
+  - Section 3 includes 2 side by side divs, the 1st displaying an interactive map with a "where to find us" heading, and a reviews div with the "Google 5 star review logo" at the top and 3 individul reviews from google inside a grey box.
+  - The interactive map is an excellent way to instantly make users aware of the area/location the salon is located in. 
+  - The reviews section is an extremely good way to instsantly build confidence and the "Google 5 star review logo" will reasure potential clients that might be visiting the site for the first time. 
 
-  
+![Section 3 screenshot containing 2 side by side sections with a interactive map and a google reviews box with 3 seperete reviews](./assets/images/bja-section-3.PNG)
+
+- ### The Footer
+   - The footer contains all social media links  with matching icons to encourrage users to follow them and stay up to date.
+   - A smaller logo is also located in the bottom left of the footer that when clicked will take the user back to the hopepage incase the user might get lost.
+
+   ![Footer screenshot, with  logo in bottom left and 3 linked social media logos in the center (Facebook, Twitter and instagram)](./assets/images/bja-footer.png)
+
+- ### About page 
+  - The about page is intended to really connect with customers and to reasure them of their ethos and goals.
+  - The Photo of the treatment room in the top left is to show the users what to expect when they go het their treatment done and familiarise them with the setting.
+
+  ![Screenshot showing about us page with statemnt from owner and photo of treatment room in the top left](./assets/images/bja-about.png)
+
+- ### Gallery page
+  - The gallery page shows real photos of clients both before and after and just after photos, giving potential clients realistic ideas of what they can achieve 
+  - Photos of both men and women are included to reasure customers that Bethany J Aesthetics is unisex.
+
+![Screenshot showing Gallery page with mixed images of real clients results](./assets/images/bja-gallery.png)  
+
+- ### Contact us page
+   - This page includes 2 main divs, the first being a form div allowing potential and interested clients to send through an detailed enquiry (with a large text box to allow clients to write a detailed enquiry including past cosmetic procedures and what theyre trying to achive )
+
+
+
+
+ 
