@@ -84,6 +84,32 @@ The Website is to target both regular and brand new clients of Bethany J Aesthet
   - CSS
    Passed through the official (Jigsaw) validator with no errors.
 
+- ### Unfixed Bugs
+  - No unfixed bugs.
+
+## Deployment
+
+- ### The site was deployed using GitHub pages using following steps:
+ -  In the bethany-j-aesthetics repository, go to the Settings tab.
+ - In the source section menu, select the Master Branch,
+ - When the master branch has been selected, the page will refresh and come up with a notification telling you the deployment has been successful.
+
+ You can find link for bethany-j-aesthetics here - https://eleanorcundall.github.io/bethany-j-aesthetics/ 
+
+ ## Credits 
+
+ - ### Content 
+   - Fonts used are from Google fonts
+   - gradient background taken from SheCodes coding tools.
+   - I used the website Stack Overflow for help and advice throughout the project.
+
+- ### Media
+  - All of the photos used on the home page and some of them on the Gallery page were used using Shutter shock (a stock image site).
+  - The other images in the Gallery were sourced and used with consent from real Bethany J Aesthetics clients. 
+  - The photo on the about page is a real photo of the Bethany J Aesthetics treatment room, taken by the owner and founder.
+  
+
+
    
 
 
