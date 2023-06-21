@@ -92,7 +92,11 @@ The Website is to target both regular and brand new clients of Bethany J Aesthet
     - Passed through the official (Jigsaw) validator with no errors.
 
 - ### Unfixed Bugs
-  - No unfixed bugs.
+  - An unfixed bug i came across was the numbers for the font "raleway" that i used on the "contact us" page were unevenly aligned and can take away the professionalism of the site.
+  - After playing around with many suggestions online i came across the blog below that tells us there is no fix for the unaligned numbers and that this is just part of the font. 
+  - My client wanted to keep the font while she looks through some other possible fonts she would like to use.
+  
+  ![Screenshot of blog from StackOverflow explaning how there is no fix for the issue](./assets/images/bja-number-align-problem.PNG)
 
 ## Deployment
 
