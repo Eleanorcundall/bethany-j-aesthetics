@@ -450,6 +450,8 @@ i {
   }
   .slogan {
     width: 90%;
+    opacity: 0.85;
+    margin-left: 20px;
   }
   .dermal-fillers,
   .chemical-peels,
@@ -532,6 +534,8 @@ i {
   }
   .slogan {
     width: 90%;
+    opacity: 0.88;
+    margin-left: 40px;
   }
   .dermal-fillers,
   .chemical-peels,
@@ -585,6 +589,13 @@ i {
 
   .nav-links {
     font-size: 17px;
+  }
+
+  .slogan {
+    opacity: 0.85;
+    width: 90%;
+    margin-left: 18px;
+  
   }
 
   .reviews {
