@@ -52,6 +52,7 @@ The Website is to target both regular and brand new clients of Bethany J Aesthet
 
   - The About page is intended to really connect with customers and to reassure them of their ethos and goals.
   - The Photo of the treatment room in the top left is to show the users what to expect when they go get their treatment done and familiarises them with the setting.
+  - The Youtube short, embeded in the bottom right of the page gives users a virtual tour of the salon, this gives users an insite of what to expect when going to get a treatment done.
 
   ![Screenshot showing about us page with statemnt from owner and photo of treatment room in the top left](./assets/images/bja-about.png)
 
