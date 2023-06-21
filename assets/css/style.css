@@ -419,6 +419,16 @@ i {
   font-size: 50px;
 }
 
+ .youtube-clip {
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+  float: right;
+  border-radius: 6%;
+  position: relative;
+}
+
+
 /*Responsive design/ Media Querys*/
 
 @media only screen and (max-width: 575px) {
