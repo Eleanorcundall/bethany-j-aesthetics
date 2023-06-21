@@ -424,7 +424,7 @@ i {
   font-size: 50px;
 }
 
- .youtube-clip {
+.youtube-clip {
   height: 300px;
   width: 300px;
   margin: 15px;
@@ -432,7 +432,6 @@ i {
   border-radius: 6%;
   position: relative;
 }
-
 
 /*Responsive design/ Media Querys*/
 
@@ -508,7 +507,7 @@ i {
   }
   .contact-icons {
     padding: 0 50px 0 0;
-    font-size: 125%;
+    font-size: 115%;
   }
 
   .photos {
@@ -520,12 +519,12 @@ i {
     margin: 10px;
     padding: 0%;
     float: none;
-  .youtube-clip
-}
 
-.youtube-clip {
-  float: none;
-}
+  }
+
+  .youtube-clip {
+    float: none;
+  }
 }
 @media only screen and (max-width: 1200px) and (min-width: 575px) {
   header {
@@ -615,7 +614,6 @@ i {
     opacity: 0.85;
     width: 90%;
     margin-left: 18px;
-  
   }
 
   .reviews {
