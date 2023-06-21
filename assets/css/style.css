@@ -338,6 +338,10 @@ label {
   box-sizing: border-box;
   font-family: raleway, sans-serif;
 }
+
+label {
+  border: none;
+}
 .enquiry {
   width: 90%;
   height: 125px;
@@ -498,7 +502,8 @@ i {
     float: none;
   }
   input[type="submit"] {
-    margin: 10px 10px 10px 100px;
+    text-align: center;
+    margin: 1% 2% 10% 20%;
   }
   .contact-icons {
     padding: 0 50px 0 0;
@@ -614,5 +619,8 @@ i {
 
   .reviews {
     font-size: 90%;
+  }
+  .contact-details {
+    font-size: 110%;
   }
 }
