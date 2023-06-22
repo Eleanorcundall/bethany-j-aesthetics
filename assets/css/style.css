@@ -42,7 +42,7 @@ h1 a {
 }
 
 header {
-  background-color: #bebebe;
+  background-color: #b8b8b8;
   margin: -20px 0 0 0px;
   width: 100%;
   height: 120px;
@@ -87,7 +87,7 @@ header {
   width: 40%;
   text-align: center;
   color: white;
-  background-color: #bebebe;
+  background-color: #b8b8b8;
   padding-top: 2%;
   margin-left: 30px;
   margin-top: 100px;
@@ -96,6 +96,11 @@ header {
   padding-bottom: 100px;
   position: relative;
   top: 100px;
+}
+
+.slogan > h3 {
+  font-weight: 400;
+  
 }
 
 .slogan2 {
@@ -139,9 +144,9 @@ header {
   border-radius: 6%;
 }
 
-.dermal-fillers > p {
-  background-color: #bebebe;
-  opacity: 0.7;
+.dermal-fillers > h4 {
+  background-color: #b8b8b8;
+  opacity: 0.85;
   font-family: raleway, sans-serif;
   height: 30%;
   width: 35%;
@@ -172,9 +177,9 @@ header {
   margin: 0 8px 0 8px;
 }
 
-.chemical-peels > p {
-  background-color: #bebebe;
-  opacity: 0.7;
+.chemical-peels > h4 {
+  background-color: #b8b8b8;
+  opacity: 0.85;
   font-family: raleway, sans-serif;
   height: 30%;
   width: 35%;
@@ -199,9 +204,9 @@ header {
   border-radius: 6%;
 }
 
-.botox > p {
-  background-color: #bebebe;
-  opacity: 0.7;
+.botox > h4 {
+  background-color: #b8b8b8;
+  opacity: 0.85;
   font-family: raleway, sans-serif;
   height: 30%;
   width: 35%;
@@ -245,7 +250,7 @@ header {
 }
 
 .reviews {
-  background-color: #bebebe;
+  background-color: #b8b8b8;
   color: white;
   border-radius: 6px;
   font-family: raleway, sans-serif;
@@ -262,7 +267,7 @@ header {
 }
 /* Footer */
 footer {
-  background-color: #bebebe;
+  background-color: #b8b8b8;
   color: white;
   width: 100%;
   font-size: 20px;
@@ -311,8 +316,8 @@ footer a {
 /* Contact us Page */
 
 .form {
-  background-color: #bebebe;
-  opacity: 0.7;
+  background-color: #b8b8b8;
+  opacity: 0.85;
   width: 48%;
   height: 500px;
   margin: 10px 20px 10px 20px;
@@ -367,8 +372,8 @@ input[type="submit"]:hover {
   color: #add8e6;
 }
 .contact-details {
-  background-color: #bebebe;
-  opacity: 0.7;
+  background-color: #b8b8b8;
+  opacity: 0.85;
   width: 48%;
   height: 500px;
   margin: -510px 20px 10px 20px;
@@ -395,7 +400,7 @@ i {
 /* About us Page */
 
 .about-us-area {
-  background-color: #bebebe;
+  background-color: #b8b8b8;
   color: white;
   font-family: raleway, sans-serif;
   margin: 20px;
@@ -422,6 +427,7 @@ i {
   color: white;
   font-family: great vibes, sans-serif;
   font-size: 50px;
+  font-weight: 100;
 }
 
 .youtube-clip {
