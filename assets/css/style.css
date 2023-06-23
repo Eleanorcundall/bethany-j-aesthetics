@@ -652,5 +652,11 @@ i {
   .contact-details {
     font-size: 110%;
   }
+  .youtube-clip {
+    width: 270px;
+  }
+  .about-us-area > img {
+    width: 270px;
+  }
 }
 
